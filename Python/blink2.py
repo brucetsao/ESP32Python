@@ -1,7 +1,7 @@
 from machine import Pin #GPIO 腳位所用之套件
 import utime#Delay程式所用之套件
-#led_onboard = Pin(0, Pin.OUT)  <==> Pin('LED', Pin.OUT)
-#定義led_onboard 板載GPIO0 或 板載LED 字樣的GPIO 腳位，
+#led_onboard = Pin(2, Pin.OUT)  <==> Pin('LED', Pin.OUT)
+#定義led_onboard 板載GPIO2 或 板載LED 字樣的GPIO 腳位，
 #並定義其腳位為輸出模式(由CPUI向外部輸出電力:以電壓 高低來控制
 led_onboard = Pin(2, Pin.OUT)
 #定義led_onboard 板載GPIO0 或 板載LED 字樣的GPIO 腳位

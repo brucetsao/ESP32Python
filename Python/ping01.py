@@ -10,4 +10,3 @@ def ping():
         print("Connected to the Internet!")
         rq.close()
         return True
-etails/131523925
