@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: htu21df
+Version: 0.1.4
+Summary: A simple program for controlling an htu21d-f sensor from a Raspberry Pi
+Home-page: https://github.com/MSeal/htu21df_sensor
+Download-URL: https://github.com/MSeal/htu21df_sensor/tarball/v0.1.4
+Author: Matthew Seal
+Author-email: mseal007@gmail.com
+License: MIT
+Keywords: sensors,raspberry_pi,adafruit,scripting
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+License-File: LICENSE
+Requires-Dist: wrapt <2.0a0,>=1.0.0
+Requires-Dist: mock
+
