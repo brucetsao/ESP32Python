@@ -84,4 +84,4 @@ class HTU21D(object):
 
     def test(self):
         """測試函數，打印訊息"""
-        print("estoy dentro")  # 輸出訊息
+        print("Test Self")  # 輸出訊息

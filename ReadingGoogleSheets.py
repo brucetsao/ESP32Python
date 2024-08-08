@@ -8,8 +8,8 @@ from machine import Pin, I2C  # 用於控制 GPIO 和 I2C
 import bme280  # 引入 BME280 氣象感測器的函式庫
 
 # 定義 WiFi 網路的 SSID 和密碼
-ssid = 'replace_with_your_wifi_ssid'  # WiFi 網路的 SSID
-password = 'replace_with_your_wifi_password'  # WiFi 網路的密碼
+ssid = 'NCNUIOT'  # WiFi 網路的 SSID
+password = '12345678'  # WiFi 網路的密碼
 
 # 設定 IFTTT 請求的 URL 和伺服器地址
 IFTTT_URL = '/trigger/BME280_Sensor_Readings/with/key/enter_your_key_here'  # IFTTT 事件的 URL
